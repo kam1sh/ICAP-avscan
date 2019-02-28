@@ -47,7 +47,7 @@ public class IcapClient {
 
     private String tempString;
 
-    private Logger logger = LoggerFactory.getLogger("sc.checks.icap");
+    private Logger logger = LoggerFactory.getLogger("icap.Client");
 
     enum ServerResponse {
         CONTINUE,
